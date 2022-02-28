@@ -11,15 +11,44 @@
 <body>
     <header>
         <a href="index.html"><img src="imagenes/logo.png" alt="Inicio" width="80" height="80"></a>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="nosotros.html">nosotros</a></li>
-                <li><a href="servicios.html">servicios</a></li>
-                <li><a href="galeria.html">galeria</a></li>
-                <li><a href="contacto.html">contacto</a></li>
-            </ul>  
-        </nav>  
+        <!--Navbar-->
+        <nav class="navbar navbar-light navbar-1 white">
+
+          <!-- Navbar brand -->
+          <a class="navbar-brand" href="#">Galeria</a>
+
+          <!-- Collapse button -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
+            aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+          <!-- Collapsible content -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+
+            <!-- Links -->
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+            <!-- Links -->
+
+          </div>
+          <!-- Collapsible content -->
+
+        </nav>
+        <!--/.Navbar-->  
     </header>
 <main>
     <section>
@@ -38,6 +67,7 @@
         </section>
     </section>
     
+    <section>
     <h2 class="sec1">Empresas con las que trabajamos</h2>
             <div class="partners">
                 <div class="partner1"><img src="imagenes/brubank.png" alt="" width="180" height="150"></div>
@@ -45,9 +75,42 @@
                 <div class="partner3"><img src="https://prestamos-personales.net/wp-content/uploads/2021/04/Uala.png" alt="" width="180" height="150"></div>
             </section>
     </section>
+
+    <section>
+    <h2>Nuestro Staff</h2>
+
+    <div class="card-deck">
+      <div class="card bg-primary">
+        <div class="card-body text-center">
+          <img class="StaffImagenes" src="imagenes/MESSI.jpg" alt="" width="300">
+          <p class="card-text">"Decidi dejar mi anterior trabajo, en este gano mucho mas"</p>
+        </div>
+      </div>
+      <div class="card bg-warning">
+        <div class="card-body text-center">
+          <img src="imagenes/Staff1.jpg" alt="" width="300">
+          <p class="card-text">"Trabajo mucho por mejorar la calidad de los servidores de nuestros clientes, me reconforma el hecho de pensar en todo lo que ayudamos al progreso"</p>
+        </div>
+      </div>
+      <div class="card bg-success">
+        <div class="card-body text-center">
+          <img src="imagenes/Staff2.jpg" alt="" width="300">
+          <p class="card-text">"Me gusta observar el comportamiento de nuestros clientes, el humano es sin duda una especie extraña"</p>
+        </div>
+      </div>
+      <div class="card bg-danger">
+        <div class="card-body text-center">
+          <img src="imagenes/Staff3.png" alt="" width="320" height="220">
+          <p class="card-text">"Me gusta mi lugar de trabajo, siento que a algunos miembros ya los conocia. Deben ser las pastillas jajaja"</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </main>
 
 <footer class="page-footer font-small stylish-color-dark pt-4">
+
     <h2>Nuestras redes</h2>
         <div class="container text-center text-md-left">
       
